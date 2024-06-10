@@ -1,39 +1,38 @@
 {
-	"endOfLine": "auto",
-	"printWidth": 120,
-	"tabWidth": 2,
-	"singleQuote": true,
+  "endOfLine": "auto",
+  "printWidth": 120,
+  "tabWidth": 2,
+  "singleQuote": true,
 
-	"plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "plugins": ["@trivago/prettier-plugin-sort-imports", "prettier-plugin-tailwindcss"],
 
-	"importOrder": [
-		"^react$",
-		"next",
-		"<THIRD_PARTY_MODULES>", 
-		"^@/style/(.*)$",
-		
-		"^@/page/(.*)$",
-		"^@/feature/(.*)$",
-		"^@/layout/(.*)$",
-		"^@/module/(.*)$",
-		"^@/element/(.*)$",
-		"^@/icon/(.*)$",
+  "importOrder": [
+    "^react$",
+    "next",
+    "<THIRD_PARTY_MODULES>",
+    "^@/style/(.*)$",
 
-		"^@/context/(.*)$",
-		"^@/wrapper/(.*)$",
-		"^@/hook/(.*)$",
+    "^@/feature/(.*)$",
+    "^@/layout/(.*)$",
+    "^@/module/(.*)$",
+    "^@/element/(.*)$",
+    "^@/icon/(.*)$",
 
-		"^@/class/(.*)$",
-		"^@/instance/(.*)$",
-		"^@/util/(.*)$",
-		"^@/constant/(.*)$",
-		"^@/type/(.*)$",
+    "^@/context/(.*)$",
+    "^@/wrapper/(.*)$",
+    "^@/hook/(.*)$",
 
-		"^@/image/(.*)$",
-		"^@/font/(.*)$",
+    "^@/class/(.*)$",
+    "^@/instance/(.*)$",
+    "^@/util/(.*)$",
+    "^@/constant/(.*)$",
+    "^@/type/(.*)$",
 
-		"^(\\.\\.\/)+"
-	],
-	"importOrderSeparation": true,
-	"importOrderGroupNamespaceSpecifiers": true
+    "^@/image/(.*)$",
+    "^@/font/(.*)$",
+
+    "^(\\.\\./)+"
+  ],
+  "importOrderSeparation": true,
+  "importOrderGroupNamespaceSpecifiers": true
 }
